@@ -1,0 +1,44 @@
+.wrapper{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    padding: 1rem;
+    padding-bottom: 10px;
+
+}
+
+#pic{
+    padding-top: 10px;
+}
+
+.content{
+    background-color: #8d8d8d;
+    flex: 1 1 auto;
+}
+
+.description1{
+    text-align: center;
+    
+}
+
+.footer{
+background: #171616;
+text-align: center;
+color: #8d8d8d;
+padding-bottom: 50px;
+}
+
+body{
+    margin: 0;
+}
